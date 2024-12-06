@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9061659812586868091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BgMusic/bgmusic
+  m_EditorClassIdentifier: 
+  Path: event:/BgMusic/bgmusic
+  Guid:
+    Data1: 332240043
+    Data2: 1210163630
+    Data3: -740026749
+    Data4: 1367478230
+  Banks:
+  - {fileID: -3987138385875461342}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4151319942247549538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodStudioProject/SoundProject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638689208559866628
+  FileSizes:
+  - Name: Desktop
+    Value: 922
+  Exists: 1
+--- !u!114 &-4066641371826215397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Attack/attack01
+  m_EditorClassIdentifier: 
+  Path: event:/Attack/attack01
+  Guid:
+    Data1: 1638853905
+    Data2: 1267874661
+    Data3: 1512863913
+    Data4: -1365849490
+  Banks:
+  - {fileID: -1937069552439189601}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3987138385875461342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/BgMusic.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodStudioProject/SoundProject/Build/Desktop/BgMusic.bank
+  Name: BgMusic
+  StudioPath: bank:/BgMusic
+  lastModified: 638689208601444285
+  FileSizes:
+  - Name: Desktop
+    Value: 3236192
+  Exists: 1
+--- !u!114 &-1937069552439189601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Attack.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodStudioProject/SoundProject/Build/Desktop/Attack.bank
+  Name: Attack
+  StudioPath: bank:/Attack
+  lastModified: 638689208602408798
+  FileSizes:
+  - Name: Desktop
+    Value: 51104
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4151319942247549538}
+  - {fileID: -1937069552439189601}
+  - {fileID: -3987138385875461342}
+  - {fileID: 6204011998438298723}
+  EditorEvents:
+  - {fileID: -4066641371826215397}
+  - {fileID: -9061659812586868091}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 6204011998438298723}
+  StringsBanks:
+  - {fileID: -4151319942247549538}
+  cacheTime: 638689208602408798
+  cacheVersion: 131844
+--- !u!114 &6204011998438298723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodStudioProject/SoundProject/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638689208559866628
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
